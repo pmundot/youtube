@@ -25,7 +25,7 @@ class youtube:
     def __init__(self,files,given_country=None):
         logging.debug("initializing the class")
         self.given_country = given_country
-        self.current = files
+        self.current = files+"/youtube_data"
         self.cat = {2:"Autos & Vehicles",
         1:"Film & Animation",
         10:"Music",
